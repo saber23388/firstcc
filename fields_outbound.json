@@ -1,0 +1,36 @@
+[
+  {
+    "type": "link",
+    "name": "物品名称",
+    "link_table": "物品清单",
+    "bidirectional": true,
+    "bidirectional_link_field_name": "领用记录"
+  },
+  {
+    "type": "number",
+    "name": "领用数量",
+    "style": {
+      "type": "plain",
+      "precision": 0
+    }
+  },
+  {
+    "type": "datetime",
+    "name": "领用日期",
+    "style": {
+      "format": "yyyy-MM-dd"
+    }
+  },
+  {
+    "type": "text",
+    "name": "领用人"
+  },
+  {
+    "type": "text",
+    "name": "领用部门"
+  },
+  {
+    "type": "text",
+    "name": "备注"
+  }
+]

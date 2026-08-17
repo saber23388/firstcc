@@ -1,0 +1,6 @@
+{
+  "type": "formula",
+  "name": "当前库存",
+  "expression": "[初始库存] + IFBLANK([入库总量], 0) - IFBLANK([出库总量], 0)",
+  "description": "自动计算：初始库存+入库总量-出库总量"
+}

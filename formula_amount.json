@@ -1,0 +1,5 @@
+{
+  "type": "formula",
+  "name": "库存金额",
+  "expression": "[当前库存] * [单价]"
+}

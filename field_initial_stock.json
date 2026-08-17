@@ -1,0 +1,5 @@
+{
+  "type": "number",
+  "name": "初始库存",
+  "description": "期初库存数量（手动填写一次）"
+}

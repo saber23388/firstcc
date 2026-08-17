@@ -1,0 +1,8 @@
+{
+  "type": "datetime",
+  "name": "购买时间",
+  "description": "采购发生日期",
+  "style": {
+    "format": "yyyy-MM-dd"
+  }
+}

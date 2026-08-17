@@ -1,0 +1,13 @@
+{
+  "type": "lookup",
+  "name": "出库总量",
+  "from": "领用出库",
+  "select": "领用数量",
+  "aggregate": "sum",
+  "where": {
+    "logic": "and",
+    "conditions": [
+      ["物品名称", "intersects", { "type": "field_ref", "field": "领用记录" }]
+    ]
+  }
+}

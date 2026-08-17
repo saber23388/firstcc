@@ -1,0 +1,6 @@
+{
+  "type": "formula",
+  "name": "库存金额",
+  "expression": "[当前库存] * [单价]",
+  "description": "自动计算：当前库存×单价"
+}

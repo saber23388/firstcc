@@ -1,0 +1,63 @@
+[
+  {
+    "type": "text",
+    "name": "物品名称",
+    "description": "易耗品名称"
+  },
+  {
+    "type": "text",
+    "name": "规格型号",
+    "description": "物品规格或型号"
+  },
+  {
+    "type": "select",
+    "name": "单位",
+    "multiple": false,
+    "options": [
+      {"name": "个"},
+      {"name": "套"},
+      {"name": "瓶"},
+      {"name": "包"},
+      {"name": "盒"},
+      {"name": "张"},
+      {"name": "把"},
+      {"name": "双"},
+      {"name": "桶"},
+      {"name": "箱"},
+      {"name": "其他"}
+    ]
+  },
+  {
+    "type": "select",
+    "name": "分类",
+    "multiple": false,
+    "options": [
+      {"name": "厨房用品"},
+      {"name": "清洁用品"},
+      {"name": "办公用品"},
+      {"name": "防护用品"},
+      {"name": "其他"}
+    ]
+  },
+  {
+    "type": "text",
+    "name": "存放位置"
+  },
+  {
+    "type": "number",
+    "name": "单价",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "type": "number",
+    "name": "初始库存",
+    "style": {
+      "type": "plain",
+      "precision": 0
+    }
+  }
+]
